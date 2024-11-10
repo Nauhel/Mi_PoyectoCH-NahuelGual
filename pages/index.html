@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Nahuel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="../images/hero.jpg" alt="">
+            </div>
+            <h1>NAHUEL GUAL</h1>
+            <h2>Closer de ventas - Desarrollador web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Nahel Gual.</span> En este portfolio encontrarás una selección de mis trabajos más
+                representativos, donde he aplicado mis habilidades como desarrolador web para lograr resultados
+                creativos y efectivos. Cada proyecto refleja mi compromiso con la calidad y la innovación.
+                Espero que disfrutes explorando mi trabajo y que encuentres inspiración en él. Si tienes alguna pregunta
+                o te gustaría discutir una posible colaboración, no dudes en contactarme.
+
+                ¡Gracias por tu visita!</p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            05/11/2001
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +54 11-3105-1227
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            nahuelgualivan@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.miportfolio.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Carlos Carranza 4851, CABA
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Closer de ventas</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>ESTRATEGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>ESTUDIO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo web</h4>
+                        <span class="casa">Coderhouse</span>
+                        <span class="fecha">2024</span>
+                        <p>Estudié desarrollo web, adquiriendo habilidades en HTML, CSS y JavaScript, además de
+                            familiarizarme con frameworks como React. Me enfoco en crear sitios web funcionales y
+                            atractivos, valorando la experiencia del usuario y la usabilidad. Soy analítico, disfruto
+                            resolver problemas y me mantemgo al día con las tendencias del sector. También valoro el
+                            trabajo en equipo y me gusta colaborar con otros profesionales, dedicando mi tiempo libre a
+                            proyectos personales y contribuciones de código abierto.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Java Script</h4>
+                        <span class="casa">Coderhouse</span>
+                        <span class="fecha">2024</span>
+                        <p>
+                            Estudié JavaScript, adquiriendo habilidades en programación web. Aprendí a crear
+                            interactividad en sitios, manipular el DOM y trabajar con APIs. También me familiaricé con
+                            bibliotecas y frameworks como React y Node.js. Me apasiona resolver problemas y me mantengo
+                            al día con las tendencias del ecosistema de JavaScript.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>React</h4>
+                        <span class="casa">Coderhouse</span>
+                        <span class="fecha">2024</span>
+                        <p>Estudié React, lo que me permite crear aplicaciones web interactivas y eficientes. Aprendí
+                            sobre componentes, manejo del estado y el ciclo de vida de las aplicaciones. También utilizo
+                            herramientas como Redux y React Router para gestionar el estado y la navegación,
+                            manteniéndome al día con las mejores prácticas en el desarrollo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiecia</h3>
+                    <div class="item der">
+                        <h4>Desarrollador web </h4>
+                        <span class="casa">Empresa X</span>
+                        <span class="fecha">2024</span>
+                        <p>Creación y mantenimiento de sitios y aplicaciones web. Dominio de tecnologías como HTML, CSS
+                            y JavaScript, así como frameworks como React y Angular.
+
+                            Diseño de Interfaces: Creación de interfaces de usuario atractivas y funcionales, enfocadas
+                            en la experiencia del usuario y la usabilidad.
+                            Desarrollo Backend: Implementación de soluciones backend utilizando Node.js y PHP,
+                            gestionando bases de datos y APIs para integrar funcionalidades.
+                            Optimización: Garantía de que las aplicaciones sean responsivas y accesibles, mejorando el
+                            rendimiento y la carga de los sitios.
+                            Colaboración: Trabajo en equipo con diseñadores y otros desarrolladores, utilizando
+                            herramientas como Git para el control de versiones.
+                            Resolución de Problemas: Identificación y solución de problemas técnicos, aplicando mejores
+                            prácticas de desarrollo y realizando pruebas para asegurar la calidad del producto.
+                            Comprometido con el aprendizaje continuo y la adaptación a nuevas tecnologías y tendencias
+                            del sector.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="../images/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Resolución</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../images/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../images/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyección</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../images/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Espacio de trabajo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../images/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Trabajo en equipo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../images/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>Estrategia</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h1>CONTACTO</h1>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="../images/geoposicionamiento.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Carlos Carranza 4851, CABA
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamanos: 4567-8765
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: nahuelgualivan@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
